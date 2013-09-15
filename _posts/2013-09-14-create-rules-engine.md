@@ -88,7 +88,7 @@ to consider for the full featured implementation. Lets talks about these and mor
 
 * Ability to define Rule(s) in easy, yet extremely powerful MVEL expression language
 * Categorize Rule(s) into RuleSet(s) for a logical grouping of rules
-* Group RuleSet(s) into a RuleBase
+* Store Rule(s) and RuleSet(s) into a RuleBase
 * Shared Rules that can be used across all rule sets in the rules engine
 * Ability to retract Fact(s) during rule invocation  to make further rules in-eligible from firing
 * Ability to inject Fact(s) during rule invocation to make further rules eligible for firing
@@ -194,4 +194,5 @@ XpressIt is a full featured implementation of rules engine based in the blueprin
 XpressIt
 
 * <a href="https://github.com/goashok/XpressIt">XpressIt</a>, You can find the test classes in src/main/test.
-* <a href="http://www.drexten.com/documentation/?page_id=27">QuickStart</a>, A quick start guide that covers all the features supported by XpressIt
+* <a href="http://www.drexten.com/documentation/?page_id=27">QuickStart</a>, A quick start guide that covers all the features supported by XpressIt. Highly recommend
+to take a look in case you need to build your own implementation.
